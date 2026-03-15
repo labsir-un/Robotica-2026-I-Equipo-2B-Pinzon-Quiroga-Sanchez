@@ -13,7 +13,7 @@
 
 <h4>Paula Nicole Quiroga Romero <br>
     Jesus David Sanchez Cobos <br>
-    David Steven Pizón Hernández</h4>
+    David Steven Pinzón Hernández</h4>
 
 <p>
   <img alt="Ubuntu 24.04 LTS" src="https://img.shields.io/badge/Ubuntu-24.04%20LTS-E95420?logo=ubuntu&logoColor=white">
