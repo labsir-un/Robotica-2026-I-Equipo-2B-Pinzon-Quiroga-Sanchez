@@ -5,7 +5,7 @@
 
 <h1>Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.</h1>
 
-<img src="images/abbs.jpeg" alt="ABB" style="border-radius: 50%; width: 180px;"><br>
+<img src="images/abbs.jpeg" alt="ABB" style="border-radius: 70%; width: 180px;"><br>
 
 Figura 1. Robots ABB
 
