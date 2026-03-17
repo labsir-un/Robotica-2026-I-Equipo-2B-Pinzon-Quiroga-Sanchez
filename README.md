@@ -54,7 +54,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 1
 <div align="center">
-  <img src="imges/JesusSanchez.jpg" alt="Jesús_Sánchez" style="border-radius: 50%; width: 180px;"><br>
+  <img src="./assets/integrantes/integrante1.jpg" alt="Foto integrante 1" style="border-radius: 50%; width: 180px;"><br>
 </div>
 
 - **Nombre completo:** Paula Nicole Quiroga Romero
@@ -70,17 +70,17 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 2
 <div align="center">
-  <img src="./assets/integrantes/integrante2.jpg" alt="Foto integrante 2" style="border-radius: 50%; width: 180px;"><br>
+  <img src="imges/JesusSanchez.jpg" alt="Jesús_Sánchez" style="border-radius: 50%; width: 180px;"><br>
 </div>
 
 - **Nombre completo:** Jesus David Sanchez Cobos
 - **Carrera:** Ingeniería Mecatrónica
 - **Correo institucional:** jesanchezco@unal.edu.co
-- **Usuario de GitHub:** [usuariogithub](https://github.com/usuariogithub)
-- **Rol en el equipo:** Ej. Modelado, programación, control
-- **Intereses:** Manipulación, ROS 2, control de robots
+- **Usuario de GitHub:** [Kovoz](https://github.com/Kovoz)
+- **Rol en el equipo:** Ej. Modelado, redacción y edición de videos
+- **Intereses:** Estudiante interesado en el diseño de sistemas mecatrónicos y la robótica de servicio, con especial motivación en la robótica bioinspirada. 
 - **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
+Me considero una persona con actitud positiva, dedicada y trabajadora. Además, destaco por mi atención a los detalles y mi compromiso para dar siempre lo mejor en cualquier proyecto o entorno. Poseo habilidades de liderazgo y trabajo en equipo, y me apasionan las matemáticas, la física, el diseño y la programación. 
 
 ---
 
