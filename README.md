@@ -73,7 +73,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
   <img src="imges/JesusSanchez.jpeg" alt="Jesús_Sánchez" style="border-radius: 50%; width: 180px;"><br>
 </div>
 
-- **Nombre completo:** Jesus David Sanchez Cobos
+- **Nombre completo:** Jesús David Sánchez Cobos
 - **Carrera:** Ingeniería Mecatrónica
 - **Correo institucional:** jesanchezco@unal.edu.co
 - **Usuario de GitHub:** [Kovoz](https://github.com/Kovoz)
