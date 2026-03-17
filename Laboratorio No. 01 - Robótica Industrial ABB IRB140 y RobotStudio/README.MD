@@ -1,10 +1,13 @@
+
 <div align="center">
 
-<h3>Laboratorio No. 01</h1>
+<h3>Laboratorio No. 01</h3>
 
-<h1>Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.</h2>
+<h1>Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.</h1>
 
-</p>
+<img src="images/abbs.jpeg" alt="ABB" style="border-radius: 50%; width: 180px;"><br>
+Figura 1. Robots ABB
+
 </div>
 
 ---
