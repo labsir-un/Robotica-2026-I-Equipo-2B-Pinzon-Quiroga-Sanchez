@@ -70,7 +70,7 @@ Aquí se documentan los laboratorios, avances, resultados y la presentación de 
 
 ### Integrante 2
 <div align="center">
-  <img src="imges/JesusSanchez.jpeg" alt="Jesús_Sánchez" style="border-radius: 50%; width: 180px;"><br>
+  <img src="images/JesusSanchez.jpeg" alt="Jesús_Sánchez" style="border-radius: 50%; width: 180px;"><br>
 </div>
 
 - **Nombre completo:** Jesús David Sánchez Cobos
