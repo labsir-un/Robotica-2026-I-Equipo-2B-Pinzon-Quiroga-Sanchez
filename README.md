@@ -86,7 +86,7 @@ Me considero una persona con actitud positiva, dedicada y trabajadora. Además, 
 
 ### Integrante 3
 <div align="center">
-  <img src="./assets/integrantes/integrante3.jpg" alt="Foto integrante 3" style="border-radius: 50%; width: 180px;"><br>
+  <img src="images\David_Pinzon.png" alt="David Steven Pinzón Hernández" style="border-radius: 50%; width: 180px;"><br>
 </div>
 
 - **Nombre completo:** David Steven Pinzón Hernández
