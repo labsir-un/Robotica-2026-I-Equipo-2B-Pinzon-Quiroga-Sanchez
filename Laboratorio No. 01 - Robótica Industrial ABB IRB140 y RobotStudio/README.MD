@@ -64,7 +64,7 @@ Con esto, primero se trabajó en RobotStudio, en el que teniendo el manipulador 
 
 </div>
 
-### Entradas y salidas digitales
+Siguiendo esto, para incorporar las entradas y salidas digitales se definió:
 
 - **DI_01:** Acciona la banda 3 segundos para posicionar la torta en la posición de decorado y ejecuta rutina de decoración. Al terminar, regresa el robot a home y acciona la banda 5 segundos para llevar la torta a la posición de entrega.  
 - **DI_02:** Lleva el robot a pose de mantenimiento y se mantiene hasta que se vuelva accionar este entrada por máximo 10 segundos 
