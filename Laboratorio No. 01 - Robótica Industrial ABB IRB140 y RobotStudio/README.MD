@@ -41,15 +41,15 @@ En primer lugar, para simular la decoración de una torta, como herramienta se u
   <tr>
     <td align="center">
       <img src="images/disenomar.png" width="250"><br>
-      <b>Figura 2. Herramienta</b>
+      <b>Figura 2. Modelado herramienta</b>
     </td>
     <td align="center">
       <img src="images/Dibujopastel.png" width="250"><br>
-      <b>Figura 3. Decoración</b>
+      <b>Figura 3. Diseño decoración</b>
     </td>
     <td align="center">
       <img src="images/disenopas.png" width="250"><br>
-      <b>Figura 4. Torta</b>
+      <b>Figura 4. Modelado torta</b>
     </td>
   </tr>
 </table>
@@ -81,11 +81,11 @@ Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su
   <tr>
     <td align="center">
       <img src="images/Herrareal.jpeg" width="250"><br>
-      <b>Figura 2. Herramienta</b>
+      <b>Figura 2. Herramienta montada</b>
     </td>
     <td align="center">
       <img src="images/Final.jpeg" width="250"><br>
-      <b>Figura 3. Decoración</b>
+      <b>Figura 3. Decoración obtenida</b>
     </td>
     <td align="center">
       <img src="images/Tortareal.jpeg" width="250"><br>
