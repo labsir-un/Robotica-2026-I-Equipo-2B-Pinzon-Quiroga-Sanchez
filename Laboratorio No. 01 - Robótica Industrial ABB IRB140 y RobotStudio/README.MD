@@ -41,6 +41,27 @@ En primer lugar, para simular la decoración de una torta, como herramienta se u
   <img src="images/disenopas.png" alt="Pastel" style="border-radius: 10px; width: 300px;">
 </div>
 
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/disenomar.png" width="250"><br>
+      <b>Herramienta (Tool)</b>
+    </td>
+    <td align="center">
+      <img src="images/Dibujopastel.png" width="250"><br>
+      <b>Diseño de la trayectoria</b>
+    </td>
+    <td align="center">
+      <img src="images/disenopas.png" width="250"><br>
+      <b>Workobject (Torta)</b>
+    </td>
+  </tr>
+</table>
+
+</div>
+
 Con esto, primero se trabajó en RobotStudio, en el que teniendo el manipulador y la banda se agregaron los modelados de la herramienta (tool) y de la torta (workobject) donde se iba a escribir, y se calibraron; luego se definieron los targets y las trayectorias, y con el lenguaje de programación RAPID se creó la rutina de decorado y de mantenimiento (el cual se eligió en una zona en la que en el laboratorio real no existieran interferencias). Para ello se utilizó una velocidad de 100 mm/s y una tolerancia de 1 mm, y se tuvieron en cuenta elementos del laboratorio que pudieran intervenir en los movimientos del robot, como la otra banda.  
 
 ### Entradas y salidas digitales
