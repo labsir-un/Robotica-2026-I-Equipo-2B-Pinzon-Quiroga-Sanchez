@@ -7,7 +7,7 @@
 
 <img src="images/abbs.jpeg" alt="ABB" style="border-radius: 50%; width: 400px;"><br>
 
-Figura 1. Manipuladores ABB IRB 140
+<b>Figura 1. Manipuladores ABB IRB 140</b>
 
 </div>
 
@@ -61,7 +61,7 @@ Con esto, primero se trabajó en RobotStudio, en el que teniendo el manipulador 
 <div align="center">
 
 <img src="images/Simu.png" alt="ABB" style="border-radius: 50%; width: 400px;"><br>
-Figura 5. Simulación en RobotStudio
+<b>Figura 5. Simulación en RobotStudio</b>
 
 </div>
 
