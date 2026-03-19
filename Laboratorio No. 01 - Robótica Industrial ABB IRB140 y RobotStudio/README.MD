@@ -61,6 +61,7 @@ Con esto, primero se trabajó en RobotStudio, en el que teniendo el manipulador 
 <div align="center">
 
 <img src="images/Simu.png" alt="ABB" style="border-radius: 50%; width: 400px;"><br>
+Figura 5. Simulación en RobotStudio
 
 </div>
 
@@ -81,15 +82,15 @@ Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su
   <tr>
     <td align="center">
       <img src="images/Herrareal.jpeg" width="250"><br>
-      <b>Figura 2. Herramienta montada</b>
+      <b>Figura 6. Herramienta montada</b>
     </td>
     <td align="center">
       <img src="images/Final.jpeg" width="250"><br>
-      <b>Figura 3. Decoración obtenida</b>
+      <b>Figura 7. Decoración obtenida</b>
     </td>
     <td align="center">
       <img src="images/Tortareal.jpeg" width="250"><br>
-      <b>Figura 4. Torta</b>
+      <b>Figura 8. Torta</b>
     </td>
   </tr>
 </table>
