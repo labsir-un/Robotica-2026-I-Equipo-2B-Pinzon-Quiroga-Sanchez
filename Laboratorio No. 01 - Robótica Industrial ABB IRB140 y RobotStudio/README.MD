@@ -36,9 +36,9 @@ Para ello, se consideraron los siguientes requerimientos:
 En primer lugar, para simular la decoración de una torta, como herramienta se utilizó un marcador y se diseñó un soporte para acoplarlo al flanche del robot; además, como torta se definió una caja de 22×19 cm con un alto de 5 cm. Posteriormente, con estas medidas se diseñó la decoración de la torta; esta se modeló para utilizarla como guía en RobotStudio para construir las trayectorias.
 
 <div align="center">
-  <img src="images/disenomar.jpeg" alt="Herramienta" style="border-radius: 10px; width: 300px;">
-  <img src="images/Dibujopastel.jpeg" alt="Decoración" style="border-radius: 10px; width: 300px;">
-  <img src="images/disenopas.jpeg" alt="Pastel" style="border-radius: 10px; width: 300px;">
+  <img src="images/disenomar.png" alt="Herramienta" style="border-radius: 10px; width: 300px;">
+  <img src="images/Dibujopastel.png" alt="Decoración" style="border-radius: 10px; width: 300px;">
+  <img src="images/disenopas.png" alt="Pastel" style="border-radius: 10px; width: 300px;">
 </div>
 
 Con esto, primero se trabajó en RobotStudio, en el que teniendo el manipulador y la banda se agregaron los modelados de la herramienta (tool) y de la torta (workobject) donde se iba a escribir, y se calibraron; luego se definieron los targets y las trayectorias, y con el lenguaje de programación RAPID se creó la rutina de decorado y de mantenimiento (el cual se eligió en una zona en la que en el laboratorio real no existieran interferencias). Para ello se utilizó una velocidad de 100 mm/s y una tolerancia de 1 mm, y se tuvieron en cuenta elementos del laboratorio que pudieran intervenir en los movimientos del robot, como la otra banda.  
