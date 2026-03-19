@@ -119,7 +119,7 @@ En el diseño de la herramienta, se tuvieron en cuenta los siguientes aspectos:
 - El eje del marcador no puede quedar colineal al flanche del manipulador, dado que se puede generar una singularidad.
 - El marcador no puede sujetarse de forma rígida, puesto que pueden existir errores de calibración.
 
-Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la unión a este; se definió que el marcador iría rotado 30° horizontalmente respecto al eje del flanche y se escogió un resorte para permitirle al marcador una tolerancia de 18 mm.
+Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la unión a este; se definió que el marcador iría rotado 30° horizontalmente respecto al eje del flanche y se escogió un resorte para permitirle al marcador una tolerancia de 18 mm. Teniendo el modelado del soporte del marcador, este fue fabricado mediante impresión 3D en material PLA.
 
 <div align="center">
 
@@ -141,6 +141,8 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
 </table>
 
 </div>
+
+<iframe src="Anexos/Planos_herramienta.pdf" width="100%" height="600px"></iframe>
 
 ---
 
