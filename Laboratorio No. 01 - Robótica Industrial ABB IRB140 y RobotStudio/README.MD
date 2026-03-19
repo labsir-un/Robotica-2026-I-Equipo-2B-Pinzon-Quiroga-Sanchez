@@ -113,6 +113,27 @@ Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su
 
 ## Diseño de la herramienta
 
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/explosionado.png" width="250"><br>
+      <b>Figura 9. Modelado herramienta</b>
+    </td>
+    <td align="center">
+      <img src="images/mar1.jpeg" width="250"><br>
+      <b>Figura 10. Diseño decoración</b>
+    </td>
+    <td align="center">
+      <img src="images/mar2.peg" width="250"><br>
+      <b>Figura 11. Modelado torta</b>
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ---
 
 ## Código en RAPID 
