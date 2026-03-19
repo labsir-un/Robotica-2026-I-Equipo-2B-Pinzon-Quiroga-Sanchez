@@ -144,8 +144,6 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
 
 <b>Planos de la herramienta</b>
 
-Los planos del diseño pueden consultarse en el siguiente enlace:
-
 [Ver planos de la herramienta](Anexos/Planos_herramienta.pdf)
 
 ---
