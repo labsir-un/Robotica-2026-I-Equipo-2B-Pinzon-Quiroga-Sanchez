@@ -142,12 +142,11 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
 
 </div>
 
-<div align="center">
-  <a href="anexos/Planos_herramienta.pdf">
-    <img src="images/herramienta.png" width="300"><br>
-    <b>Ver planos de la herramienta</b>
-  </a>
-</div>
+## Planos de la herramienta
+
+Los planos del diseño pueden consultarse en el siguiente enlace:
+
+[Ver planos de la herramienta](anexos/Planos_herramienta.pdf)
 
 ---
 
