@@ -154,5 +154,12 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
 
 ## Resultados
 
-Se realizó la calibración real y en la simulación del TCP de la herramienta, obteniendo en la real un error máximo de 7.1 mm, el cual estaba dentro de la tolerancia de la herramienta; sin embargo, para la práctica se utilizó la calibración de RobotStudio. Por otro lado, para la torta no fue igual, puesto que existen algunos aspectos que no se tuvieron en cuenta en la simulación, como la inclinación de la banda transportadora o la pequeña presión que se debía ejercer sobre el marcador para que este escribiera. Por ello, fue necesario iterar y se obtuvo un resultado satisfactorio. Adicionalmente, en simulación se replicó la tarea de decorado sobre el cuadrante x(+), y(−). Finalmente, se realizó un video con las simulaciones y la práctica.
+<div align="center">
+
+<img src="images/error.jpeg" alt="error" style="border-radius: 50%; width: 500px;"><br>
+<b>Figura 12. Error en la calibración de la herramienta</b>
+
+</div>
+
+Se realizó la calibración real y en la simulación del TCP de la herramienta, obteniendo en la real un error máximo de 7.1 mm (Figura 12), el cual estaba dentro de la tolerancia de la herramienta; sin embargo, para la práctica se utilizó la calibración de RobotStudio. Por otro lado, para la torta no fue igual, puesto que existen algunos aspectos que no se tuvieron en cuenta en la simulación, como la inclinación de la banda transportadora o la pequeña presión que se debía ejercer sobre el marcador para que este escribiera. Por ello, fue necesario iterar y se obtuvo un resultado satisfactorio. Adicionalmente, en simulación se replicó la tarea de decorado sobre el cuadrante x(+), y(−). Finalmente, se realizó un video con las simulaciones y la práctica.
 
