@@ -7,7 +7,7 @@
 
 <img src="images/abbs.jpeg" alt="ABB" style="border-radius: 50%; width: 400px;"><br>
 
-Figura 1. Robots ABB
+Figura 1. Manipuladores ABB IRB 140
 
 </div>
 
@@ -36,26 +36,20 @@ Para ello, se consideraron los siguientes requerimientos:
 En primer lugar, para simular la decoración de una torta, como herramienta se utilizó un marcador y se diseñó un soporte para acoplarlo al flanche del robot; además, como torta se definió una caja de 22×19 cm con un alto de 5 cm. Posteriormente, con estas medidas se diseñó la decoración de la torta; esta se modeló para utilizarla como guía en RobotStudio para construir las trayectorias.
 
 <div align="center">
-  <img src="images/disenomar.png" alt="Herramienta" style="border-radius: 10px; width: 300px;">
-  <img src="images/Dibujopastel.png" alt="Decoración" style="border-radius: 10px; width: 300px;">
-  <img src="images/disenopas.png" alt="Pastel" style="border-radius: 10px; width: 300px;">
-</div>
-
-<div align="center">
 
 <table>
   <tr>
     <td align="center">
       <img src="images/disenomar.png" width="250"><br>
-      <b>Herramienta (Tool)</b>
+      <b>Figura 2. Herramienta</b>
     </td>
     <td align="center">
       <img src="images/Dibujopastel.png" width="250"><br>
-      <b>Diseño de la trayectoria</b>
+      <b>Figura 3. Decoración</b>
     </td>
     <td align="center">
       <img src="images/disenopas.png" width="250"><br>
-      <b>Workobject (Torta)</b>
+      <b>Figura 4. Torta</b>
     </td>
   </tr>
 </table>
