@@ -75,6 +75,27 @@ Siguiendo esto, para incorporar las entradas y salidas digitales se definió:
 
 Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su lugar se movió el *workobject*. Finalmente, con la simulación funcionando, se pasó a la práctica y, así como se hizo antes, lo primero fue realizar la calibración de la herramienta y de la torta; con estas se probó el código de RAPID y se realizaron algunas iteraciones dada la posición real del *workobject* hasta obtener la rutina esperada.
 
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/Herrareal.jpeg" width="250"><br>
+      <b>Figura 2. Herramienta</b>
+    </td>
+    <td align="center">
+      <img src="images/Final.jpeg" width="250"><br>
+      <b>Figura 3. Decoración</b>
+    </td>
+    <td align="center">
+      <img src="images/Tortareal.jpeg" width="250"><br>
+      <b>Figura 4. Torta</b>
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ---
 
 ## Diagrama de flujo de acciones del robot
