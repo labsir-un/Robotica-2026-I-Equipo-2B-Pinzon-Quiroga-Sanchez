@@ -126,7 +126,7 @@ Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su
       <b>Figura 10. Componentes herramienta</b>
     </td>
     <td align="center">
-      <img src="images/mar3.jpeg" width="350"><br>
+      <img src="images/mar3.jpeg" width="100"><br>
       <b>Figura 11. Herramienta</b>
     </td>
   </tr>
