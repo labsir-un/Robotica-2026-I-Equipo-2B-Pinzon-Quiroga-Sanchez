@@ -149,17 +149,40 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
 ---
 
 ## Código en RAPID 
+Para la programación de las trayectorias del robot acorde a los requerimientos del ejercicio, se tomó la siguiente lógica. Con el fin de ser más concisos y breves en esta explicación, se omitieron la ubicación de los puntos, el workobject y el código de cada una de las trayectorias de forma individual; en consecuencia, se mostrará la rutina principal (MAIN) del programa.
+
+Como el trabajo que debe realizar la máquina debe ser cíclico, lo primero que se establece es un ciclo while que siempre se ejecuta y que contiene todo lo demás. 
 ```rapid
    PROC main()
         WHILE TRUE DO
+        ...
+        ENDWHILE
+    ENDPROC
+```
+Lo primero que se ejecuta en el ciclo es el regreso al home de la máquina, acompañado de apagar todos los pilotos, ya que se está inicializando la posición del robot.
+```rapid
+          ...  
             Reset DO_01;
             Reset DO_03;
             Path_10;
+          ...
+```
+Tras esto, en el código se establecen una serie de condiciones relacionadas con las entradas DI_01, DI_03 y DI_03. La primera condición es un if que corresponde con el proceso de mover la banda transportadora en retroceso; esto se hace con el fin de facilitar la ubicación de la pieza para realizar las demás rutinas del ejercicio. El movimiento tiene una duración de 3 segundos.
+
+```rapid
+    ...
             IF DI_03=1 THEN
                 Set FWD_Conveyor;
                 WaitTime 3;
                 Reset FWD_Conveyor;
             ENDIF
+    ...
+```
+
+La segunda y tercera condición se encuentran en un if-elseif, donde el primer if cumple la función de mandar al robot a la posición de mantenimiento con el pulsador DI_03. En esta posición, el robot se ubica en una posición cómoda para cambiar la herramienta. Dentro de este if se encuentra un while que mantiene al robot en la posición de mantenimiento hasta que se vuelve a presionar el pulsador DI_03 por un máximo de 10 segundos.
+
+```rapid
+    ...
             IF DI_02=1 THEN
                 Path_01;
                 Set DO_03;
@@ -167,6 +190,13 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
                     WaitTime 10;
                 ENDWHILE
                 Reset DO_03;
+    ...
+```
+
+En caso de que DI_03 no fue el que se presionó, entonces se evalúa la condición de que DI_02 fuese presionado. En caso de que no, entonces se regresa a home. En caso de que sí, entonces se ejecuta la rutina de decorado.
+
+```rapid
+    ...
             ELSEIF DI_01=1 THEN
                 Set DO_01;
                 Set BWD_Conveyor;
@@ -189,8 +219,7 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
             ELSE
                 Path_10;
             ENDIF
-        ENDWHILE
-    ENDPROC
+    ...
 ```
 
 ---
