@@ -149,6 +149,49 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
 ---
 
 ## Código en RAPID 
+```rapid
+   PROC main()
+        WHILE TRUE DO
+            Reset DO_01;
+            Reset DO_03;
+            Path_10;
+            IF DI_03=1 THEN
+                Set FWD_Conveyor;
+                WaitTime 3;
+                Reset FWD_Conveyor;
+            ENDIF
+            IF DI_02=1 THEN
+                Path_01;
+                Set DO_03;
+                WHILE DI_02=0 DO
+                    WaitTime 10;
+                ENDWHILE
+                Reset DO_03;
+            ELSEIF DI_01=1 THEN
+                Set DO_01;
+                Set BWD_Conveyor;
+                Set FWD_Conveyor;
+                WaitTime 3;
+                Reset BWD_Conveyor;
+                Reset FWD_Conveyor;
+                Path_10;
+                Path_170;
+                Path_190;
+                Path_200;
+                Path_210;
+                Path_10;
+                Set BWD_Conveyor;
+                Set FWD_Conveyor;
+                WaitTime 5;
+                Reset FWD_Conveyor;
+                Reset BWD_Conveyor;
+                Reset DO_01;
+            ELSE
+                Path_10;
+            ENDIF
+        ENDWHILE
+    ENDPROC
+```
 
 ---
 
