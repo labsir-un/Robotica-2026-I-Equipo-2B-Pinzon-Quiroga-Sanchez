@@ -93,8 +93,7 @@ Me considero una persona con actitud positiva, dedicada y trabajadora. Además, 
 - **Carrera:** Ingeniería Mecatrónica
 - **Correo institucional:** dpinzonh@unal.edu.co
 - **Usuario de GitHub:** [usuariogithub](https://github.com/david-pi3141)
-- **Rol en el equipo:** Ej. Documentación, pruebas, simulación
-- **Intereses:** Robótica industrial, sistemas autónomos, IA
+- **Rol en el equipo:** Documentación, pruebas, programación
+- **Intereses:** Robótica industrial, sistemas autónomos, visión de máquina, automatización industrial
 - **Descripción breve:**  
-  Escribe aquí una breve presentación personal y académica del integrante.
-
+  Me considero una persona atenta, reponsable y un poco curiosa. Tengo habilidades en el diseño CAD, programación y estoy aprendiendo acerca de temas relacionados con los microcontroladores. Se trabajar ene equipo y estoy aprendiendo sobre liderazgo.
