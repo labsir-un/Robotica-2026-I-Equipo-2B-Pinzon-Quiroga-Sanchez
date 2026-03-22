@@ -118,6 +118,7 @@ MoveJ coscite en una funcion que envia al TCP a un punto determinado sin seguir 
 MoveL es una función que mueve el TCP hasta un punto siguiendo estrictamente una línea recta, desde el punto actual. Las instrucciones que utilizaron MoveL fueron principalmente las que definen la trayectoria de los nombres, en las partes rectas de los mismos o en algunas partes donde se colocaron muchas trayectorias para asemejar una curva, y algunas aproximaciones. Entre letra y letra se emplearon MoveJ, aunque inicialmente se había intentado utilizar MoveL, lo cual generó algunos problemas.
 
 MoveC es una función que mueve el TCP en una curva, uniendo tres puntos: el punto desde donde parte, un punto intermedio y un punto final. MoveC se usó más que todo en las trayectorias de la figura del medio, ya que consiste más que todo en curvas y círculos, y en las partes curvas de las letras, tales como las curvas de la letra "a" o de la letra "p".
+
 ---
 
 ## Diseño de la herramienta
