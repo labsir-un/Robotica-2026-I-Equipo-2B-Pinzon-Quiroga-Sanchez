@@ -189,7 +189,7 @@ Tras esto, en el código se establecen una serie de condiciones relacionadas con
     ...
 ```
 
-La segunda y tercera condición se encuentran en un if-elseif, donde el primer if cumple la función de mandar al robot a la posición de mantenimiento con el pulsador DI_03. En esta posición, el robot se ubica en una posición cómoda para cambiar la herramienta. Dentro de este if se encuentra un while que mantiene al robot en la posición de mantenimiento hasta que se vuelve a presionar el pulsador DI_03 por un máximo de 10 segundos.
+La segunda y tercera condición se encuentran en un if-elseif, donde el primer if cumple la función de mandar al robot a la posición de mantenimiento con el pulsador DI_03. En esta posición, el robot se ubica en una posición cómoda para cambiar la herramienta. Dentro de este if se encuentra un while que mantiene al robot en la posición de mantenimiento hasta que se vuelve a presionar el pulsador DI_03 por un máximo de 10 segundos. Adicionalmente, durante el tiempo que el robot se encuentra en mantenimiento, el piloto número tres *DO_03* permanece encendido.
 
 ```rapid
     ...
@@ -203,7 +203,9 @@ La segunda y tercera condición se encuentran en un if-elseif, donde el primer i
     ...
 ```
 
-En caso de que *DI_03* no fue el que se presionó, entonces se evalúa la condición de que *DI_02* fuese presionado. En caso de que no, entonces se regresa a home. En caso de que sí, entonces se ejecuta la rutina de decorado. En este proceso comenzamos activando la banda transportadora por 3 segundos y luego la apagamos; esto ubica la "torta" en la posición deseada. Luego manda el manipulador a la posición de home para luego comenzar y ubicarse en un punto intermedio entre home y la torta. Luego se ubica a 10 cm de la superficie de la torta, tras lo cual empieza a hacer la figura sobre el objeto, comenzando por la figura como tal y, tras terminar, escribe los nombres. Al finalizar la figura y los nombres, retorna al punto intermedio y luego a la posición de home. Luego activa nuevamente la banda transportadora.
+En caso de que *DI_03* no fue el que se presionó, entonces se evalúa la condición de que *DI_02* fuese presionado. En caso de que no, entonces se regresa a home. En caso de que sí, entonces se ejecuta la rutina de decorado, durante la cual el piloto número uno *DO_01* permanece encendido hasta que finaliza toda la rutina.
+
+En este proceso comenzamos activando la banda transportadora por 3 segundos y luego la apagamos; esto ubica la "torta" en la posición deseada. Luego manda el manipulador a la posición de home para luego comenzar y ubicarse en un punto intermedio entre home y la torta. Luego se ubica a 10 cm de la superficie de la torta, tras lo cual empieza a hacer la figura sobre el objeto, comenzando por la figura como tal y, tras terminar, escribe los nombres. Al finalizar la figura y los nombres, retorna al punto intermedio y luego a la posición de home. Luego activa nuevamente la banda transportadora.
 
 Para dibujar la figura central se utilizaron tres rutinas, las cuales fueron Path_170, que describe la forma exterior de la figura semejante a una "flor", Path_190, la cual es el círculo grande, y Path_200, que describe al círculo pequeño. Tras esto, en el Path_210 se realiza el dibujo de los nombres, comenzando con el de Paula, luego el de David y finalmente el de Jesús. Como podrá observar, el dibujo de los nombres se realizó en una sola rutina, un poco más extensa.
 
