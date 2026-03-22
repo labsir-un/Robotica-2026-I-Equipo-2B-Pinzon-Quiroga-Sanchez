@@ -229,7 +229,7 @@ En caso de que *DI_03* no fue el que se presionó, entonces se evalúa la condic
 
 <div align="center">
 
-<img src="images/error.jpeg" alt="error" style="border-radius: 50%; width: 500px;"><br>
+<img src="images/error.jpeg" alt="error" style="border-radius: 50%; width: 400px;"><br>
 <b>Figura 12. Error en la calibración de la herramienta</b>
 
 </div>
