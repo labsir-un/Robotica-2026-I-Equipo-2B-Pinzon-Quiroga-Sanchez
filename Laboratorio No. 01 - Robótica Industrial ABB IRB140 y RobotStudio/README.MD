@@ -238,6 +238,6 @@ Se realizó la calibración real y en la simulación del TCP de la herramienta, 
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=HJSt0lsINJk">
-    <img src="Final.jpeg" width="500">
+    <img src="images/Final.jpeg" width="500">
   </a>
 </div>
