@@ -238,7 +238,7 @@ Se realizó la calibración real y en la simulación del TCP de la herramienta, 
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=HJSt0lsINJk">
-    <img src="images/Final.jpeg" width="400">
+    <img src="images/Final.jpeg" width="400"><br>
     <b>Haz clic en la imagen para ver el video</b>
   </a>
 </div>
