@@ -109,7 +109,15 @@ Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su
 
 ## Funciones utilizadas
 
-Se utilizaron las tres funciones MoveJ, MoveL y MoveC. MoveJ se utilizó principalmente para ir a home y para puntos intermedios, principalmente los que nos provocaron un problema de "Join Out of Range". Las instrucciones que utilizaron MoveL fueron principalmente las que se usaron para escribir los nombres, en las partes rectas de los mismos o en algunas partes donde se colocaron muchas trayectorias para asemejar una curva, y algunas aproximaciones. MoveC se usó más que todo en las trayectorias de la figura del medio y en las partes curvas de las letras.
+
+
+Se utilizaron las tres funciones MoveJ, MoveL y MoveC; el uso de cada una se describe a continuación.
+
+MoveJ coscite en una funcion que envia al TCP a un punto determinado sin seguir una trayectoria definida, el robot define la trayectoria que considere mas conveniente. MoveJ se utilizó principalmente para ir a home y para puntos intermedios, principalmente los que nos provocaron un problema de "Join Out of Range".
+
+MoveL es una función que mueve el TCP hasta un punto siguiendo estrictamente una línea recta, desde el punto actual. Las instrucciones que utilizaron MoveL fueron principalmente las que definen la trayectoria de los nombres, en las partes rectas de los mismos o en algunas partes donde se colocaron muchas trayectorias para asemejar una curva, y algunas aproximaciones. Entre letra y letra se emplearon MoveJ, aunque inicialmente se había intentado utilizar MoveL, lo cual generó algunos problemas.
+
+MoveC es una función que mueve el TCP en una curva, uniendo tres puntos: el punto desde donde parte, un punto intermedio y un punto final. MoveC se usó más que todo en las trayectorias de la figura del medio, ya que consiste más que todo en curvas y círculos, y en las partes curvas de las letras, tales como las curvas de la letra "a" o de la letra "p".
 ---
 
 ## Diseño de la herramienta
@@ -195,6 +203,8 @@ La segunda y tercera condición se encuentran en un if-elseif, donde el primer i
 ```
 
 En caso de que *DI_03* no fue el que se presionó, entonces se evalúa la condición de que *DI_02* fuese presionado. En caso de que no, entonces se regresa a home. En caso de que sí, entonces se ejecuta la rutina de decorado. En este proceso comenzamos activando la banda transportadora por 3 segundos y luego la apagamos; esto ubica la "torta" en la posición deseada. Luego manda el manipulador a la posición de home para luego comenzar y ubicarse en un punto intermedio entre home y la torta. Luego se ubica a 10 cm de la superficie de la torta, tras lo cual empieza a hacer la figura sobre el objeto, comenzando por la figura como tal y, tras terminar, escribe los nombres. Al finalizar la figura y los nombres, retorna al punto intermedio y luego a la posición de home. Luego activa nuevamente la banda transportadora.
+
+Para dibujar la figura central se utilizaron tres rutinas, las cuales fueron Path_170, que describe la forma exterior de la figura semejante a una "flor", Path_190, la cual es el círculo grande, y Path_200, que describe al círculo pequeño. Tras esto, en el Path_210 se realiza el dibujo de los nombres, comenzando con el de Paula, luego el de David y finalmente el de Jesús. Como podrá observar, el dibujo de los nombres se realizó en una sola rutina, un poco más extensa.
 
 ```rapid
     ...
