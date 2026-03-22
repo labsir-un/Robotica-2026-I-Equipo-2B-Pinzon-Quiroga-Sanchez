@@ -238,7 +238,7 @@ Para dibujar la figura central se utilizaron tres rutinas, las cuales fueron Pat
 
 <b>Código completo del ejercicio:</b>
 
-[Ver código](Anexos\Codigo_RAPID.txt)
+[Ver código](Anexos/Codigo_RAPID.txt)
 
 ---
 
