@@ -236,3 +236,8 @@ En caso de que *DI_03* no fue el que se presionó, entonces se evalúa la condic
 
 Se realizó la calibración real y en la simulación del TCP de la herramienta, obteniendo en la real un error máximo de 7.1 mm (Figura 12), el cual estaba dentro de la tolerancia de la herramienta; sin embargo, para la práctica se utilizó la calibración de RobotStudio. Por otro lado, para la torta no fue igual, puesto que existen algunos aspectos que no se tuvieron en cuenta en la simulación, como la inclinación de la banda transportadora o la pequeña presión que se debía ejercer sobre el marcador para que este escribiera. Por ello, fue necesario iterar y se obtuvo un resultado satisfactorio. Adicionalmente, en simulación se replicó la tarea de decorado sobre el cuadrante x(+), y(−). Finalmente, se realizó un video con las simulaciones y la práctica.
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=HJSt0lsINJk">
+    <img src="Final.jpeg" width="500">
+  </a>
+</div>
