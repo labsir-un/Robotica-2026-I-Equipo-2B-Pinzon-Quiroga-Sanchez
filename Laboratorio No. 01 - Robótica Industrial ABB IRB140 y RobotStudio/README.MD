@@ -109,15 +109,28 @@ Cabe mencionar que en RobotStudio no se simuló el movimiento de la banda; en su
 
 ## Funciones utilizadas
 
-
-
 Se utilizaron las tres funciones MoveJ, MoveL y MoveC; el uso de cada una se describe a continuación.
 
-MoveJ coscite en una funcion que envia al TCP a un punto determinado sin seguir una trayectoria definida, el robot define la trayectoria que considere mas conveniente. MoveJ se utilizó principalmente para ir a home y para puntos intermedios, principalmente los que nos provocaron un problema de "Join Out of Range".
+MoveJ consiste en una función que envía al TCP a un punto determinado sin seguir una trayectoria definida; el robot define la trayectoria que considere más conveniente. MoveJ se utilizó principalmente para ir a home y para puntos intermedios, principalmente los que nos provocaron un problema de "Join Out of Range".
 
 MoveL es una función que mueve el TCP hasta un punto siguiendo estrictamente una línea recta, desde el punto actual. Las instrucciones que utilizaron MoveL fueron principalmente las que definen la trayectoria de los nombres, en las partes rectas de los mismos o en algunas partes donde se colocaron muchas trayectorias para asemejar una curva, y algunas aproximaciones. Entre letra y letra se emplearon MoveJ, aunque inicialmente se había intentado utilizar MoveL, lo cual generó algunos problemas.
 
 MoveC es una función que mueve el TCP en una curva, uniendo tres puntos: el punto desde donde parte, un punto intermedio y un punto final. MoveC se usó más que todo en las trayectorias de la figura del medio, ya que consiste más que todo en curvas y círculos, y en las partes curvas de las letras, tales como las curvas de la letra "a" o de la letra "p".
+
+También se emplearon las funciones Set y Reset. Set se usa para poner en verdadero (1) el estado lógico de una salida, mientras que Reset pone en falso (0) el estado lógico de una salida. Estas dos funciones se emplearon para dos cosas. La primera es la de encender o apagar los pilotos que señalizan cada una de las etapas del proceso. La otra aplicación fue en la activación y desactivación de la banda transportadora, cambiando el estado de las salidas BWD_Conveyor y FWD_Conveyor.
+
+Además, usamos la función WaitTime, que genera un retraso de tiempo especificado en segundos. Se usó para definir el tiempo que se demora la banda transportadora en llevar la "torta" de un punto A a un punto B y de un punto B a un punto C. Se tomaron tiempos de espera de 3 segundos para llevar la torta al lugar donde el robot hará la figura y 5 segundos para sacarla del lugar de trabajo del robot; esto se verá con detalle más adelante.
+
+Otras funciones que usaron, concretamente para la simulación en RobotStudio, fueron las funciones LinearMove2 y LogicGate. LA función LinearMove2 mueve un objeto de la simulación de manera lineal respecto a otro objeto. Específicamente, se movió el objeto que representa a la "torta" respecto al modelo de la banda transportadora, para representar la activación y desactivación de esta última. Se utilizaron dos de estas funciones, una para representar el movimiento a la derecha y la otra para representar el movimiento a la izquierda. Esto se puede hacer modificando el parámetro Direction, dejando para el primer caso los valores ([0,00 -1,00 0,00] mm) y para el segundo los valores de ([0,00 1,00 0,00] mm).
+
+La función LogicGate fue necesaria utilizarla para poder simular correctamente el movimiento de la "torta" hacia la izquierda y hacia la derecha, considerando la forma en que se activa y desactiva la banda transportadora en el programa de RAPID. LogicGate permite configurar varios tipos de compuertas lógicas; en nuestro caso se utilizaron compuertas AND y una compuerta XOR.
+
+<div align="center">
+
+<img src="images/SmartComponent.png" alt="ABB" style="border-radius: 50%; width: 400px;"><br>
+<b>Figura 9. SmartComponent utilizado para la simulación.</b>
+
+</div>
 
 ---
 
@@ -137,15 +150,15 @@ Siguiendo esto, se utilizaron los planos del flanche del robot para modelar la u
   <tr>
     <td align="center">
       <img src="images/explosionado.png" width="300"><br>
-      <b>Figura 9. Explosionado de la herramienta</b>
+      <b>Figura 10. Explosionado de la herramienta</b>
     </td>
     <td align="center">
       <img src="images/mar1.jpeg" width="300"><br>
-      <b>Figura 10. Componentes herramienta</b>
+      <b>Figura 11. Componentes herramienta</b>
     </td>
     <td align="center">
       <img src="images/mar3.jpeg" width="300"><br>
-      <b>Figura 11. Herramienta</b>
+      <b>Figura 12. Herramienta</b>
     </td>
   </tr>
 </table>
@@ -247,7 +260,7 @@ Para dibujar la figura central se utilizaron tres rutinas, las cuales fueron Pat
 <div align="center">
 
 <img src="images/error.jpeg" alt="error" style="border-radius: 50%; width: 400px;"><br>
-<b>Figura 12. Error en la calibración de la herramienta</b>
+<b>Figura 13. Error en la calibración de la herramienta</b>
 
 </div>
 
