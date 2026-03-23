@@ -123,7 +123,7 @@ Además, usamos la función WaitTime, que genera un retraso de tiempo especifica
 
 Otras funciones que usaron, concretamente para la simulación en RobotStudio, fueron las funciones LinearMove2 y LogicGate. LA función LinearMove2 mueve un objeto de la simulación de manera lineal respecto a otro objeto. Específicamente, se movió el objeto que representa a la "torta" respecto al modelo de la banda transportadora, para representar la activación y desactivación de esta última. Se utilizaron dos de estas funciones, una para representar el movimiento a la derecha y la otra para representar el movimiento a la izquierda. Esto se puede hacer modificando el parámetro Direction, dejando para el primer caso los valores ([0,00 -1,00 0,00] mm) y para el segundo los valores de ([0,00 1,00 0,00] mm).
 
-La función LogicGate fue necesaria utilizarla para poder simular correctamente el movimiento de la "torta" hacia la izquierda y hacia la derecha, considerando la forma en que se activa y desactiva la banda transportadora en el programa de RAPID. LogicGate permite configurar varios tipos de compuertas lógicas; en nuestro caso se utilizaron compuertas AND y una compuerta XOR.
+La función LogicGate fue necesario utilizarla para poder simular correctamente el movimiento de la "torta" hacia la izquierda y hacia la derecha, considerando la forma en que se activa y desactiva la banda transportadora en el programa de RAPID. LogicGate permite configurar varios tipos de compuertas lógicas; en nuestro caso se utilizaron compuertas AND y una compuerta XOR.
 
 <div align="center">
 
